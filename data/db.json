@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "name": "Books",
+      "display_name": "Books",
+      "description": "All kinds of books",
+      "_id": 1
+    },
+    {
+      "name": "Clothing",
+      "display_name": "Clothing",
+      "description": "All kinds of Clothing"
+    }
+  ],
+  "products": [
+    {
+      "_id": 2,
+      "category": "Books",
+      "name": "Pale Fire",
+      "display_name": "Pale Fire",
+      "description": "A tale about John Kincaid..."
+    },
+    {
+      "category": "Books",
+      "name": "Midnights Children, display_name: Midnights Children",
+      "description": "A tale about Saleem Sinai..."
+    },
+    {
+      "category": "Books",
+      "name": "The Intuitionist",
+      "display_name": "The Intuitionist",
+      "description": "A tale about the elevator inspection guilds.",
+      "_id": 3
+    }
+  ]
+}
