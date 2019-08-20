@@ -4,42 +4,19 @@
 ### Author: Jessica Walters
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
+* [submission PR](https://github.com/401-advanced-javascript-jessica/simple-api/pull/1)
 * [Swagger](https://editor.swagger.io/?_ga=2.151442681.1950526655.1566256882-2041420182.1566256882
 )
 
 #### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
-
-### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
+* [api docs](https://editor.swagger.io/?_ga=2.151442681.1950526655.1566256882-2041420182.1566256882) 
 
 ### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
-  
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
-
-#### UML
-Link to an image of the UML for your application and response to events
+* `json-server --id=_id --watch data/db.json --routes data/routes.json`
+* Endpoint: `/categories`
+  * Returns a JSON object with a list of categories.
+* Endpoint: `/products`
+  * Returns a JSON object with a list of products.
+ 
